@@ -11,7 +11,7 @@ doh-proxy-rs --server --listen=0.0.0.0:443 --upstream=1.1.1.1:53 --identity=./se
 The server requires a PKCS#12 identity. You can generate it from a key pair in PEM format:
 
 ```bash
-openssl pkcs12 -export -out server.pfx -inkey privkey.pem -in fullchain.pem
+openssl pkcs12 -export -out server.pfx -inkey key.pem -in cert.pem [-certfile chain.pem]
 ```
 
 PEM certificate support depends on `native-tls` (sfackler/rust-native-tls#27).

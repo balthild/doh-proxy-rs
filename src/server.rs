@@ -99,7 +99,7 @@ async fn load_tls_identity() -> Identity {
         .expect(&format!("Cannot load PKCS#12 file: {}", args.identity))
 }
 
-async fn serve_req<'a>(req: Request<Body>) -> Result<Response<Body>, hyper::Error> {
+async fn serve_req(req: Request<Body>) -> Result<Response<Body>, hyper::Error> {
     if req.uri().path() != "/dns-query" {
         return Ok(abort(StatusCode::NOT_FOUND));
     }
