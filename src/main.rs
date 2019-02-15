@@ -1,4 +1,4 @@
-#![feature(box_syntax, async_await, await_macro, futures_api)]
+#![feature(async_await, await_macro, futures_api)]
 
 mod args;
 mod server;
