@@ -8,6 +8,7 @@ license = "GPL-3.0-or-later"
 documentation = "https://github.com/balthild/doh-proxy-rs/blob/master/README.md"
 homepage = "https://github.com/balthild/doh-proxy-rs"
 repository = "https://github.com/balthild/doh-proxy-rs"
+readme = "README.md"
 
 [dependencies]
 argparse = "0.2"
