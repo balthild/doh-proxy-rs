@@ -3,6 +3,11 @@ name = "doh-proxy-rs"
 version = "0.1.0"
 authors = ["Balthild <ibalthild@gmail.com>"]
 edition = "2018"
+description = "DNS over HTTP proxy"
+license = "GPL-3.0-or-later"
+documentation = "https://github.com/balthild/doh-proxy-rs/blob/master/README.md"
+homepage = "https://github.com/balthild/doh-proxy-rs"
+repository = "https://github.com/balthild/doh-proxy-rs"
 
 [dependencies]
 argparse = "0.2"
