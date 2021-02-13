@@ -2,6 +2,8 @@
 
 Proxy DNS over HTTPS requests
 
+Update: Don't use this crate. It was written when I didn't know much about Rust and contains shitty pieces of code. Maybe I'll refactor it later.
+
 ## Usage
 
 ```bash
